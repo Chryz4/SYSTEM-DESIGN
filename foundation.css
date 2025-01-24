@@ -1,0 +1,255 @@
+.first_img h1 {
+    margin-top: -200px;
+    color: white;
+    font-size: 90px;
+}
+
+.first_img img {
+    margin-top: 70px;
+}
+
+.key-features {
+    display: flex;
+    justify-content: space-between;
+    background-color: #66ff66;
+    width: 900px;
+    height: 400px;
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+.key-features ul li {
+    margin-bottom: 30px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+    cursor: pointer;
+    list-style-type: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    align-items: center;
+    margin-right: 210px;
+    margin-top: 20px;
+}
+
+.key-features h2 {
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+
+.container {
+    display: flex;
+    /* Use flexbox for easy layout */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+    flex: 1;
+    /* Make each box take equal width */
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #1aff66;
+    transition: background-color 0.3s ease;
+    box-shadow: 10px 2px 5px rgba(0, 0, 0, 2.5);
+}
+
+.box h2 {
+    margin-bottom: 10px;
+}
+
+.box ul {
+
+    padding: 0;
+}
+
+.box ul li {
+    margin-bottom: 5px;
+}
+
+.text {
+    width: 1300px;
+    height: 200px;
+    background-color: gainsboro;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
+}
+
+
+
+.box .active {
+    background-color: #333;
+    /* Highlight color */
+    color: #fff;
+}
+
+.container .box .active {
+    background-color: #4d79ff;
+    /* Highlight color */
+    color: white;
+}
+
+h1 {
+    margin-left: 40px;
+    color: #000066;
+}
+
+.flip-box {
+    background-color: #fff;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    perspective: 1000px;
+    margin-top: 80px;
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+    /* Perspective for 3D effect */
+}
+
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    /* Initially flip the back side */
+}
+
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* For Safari */
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: #4d79ff;
+    color: black;
+    transform: rotateY(-180deg);
+    /* Initially rotate the front side */
+}
+
+.flip-box-back {
+    background-color: #4d79ff;
+    color: white;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(0deg);
+    /* Flip back to front on hover */
+}
+
+/* Style for the Enroll Now button */
+#enroll-button {
+    background-color: white;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.box:hover {
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 1.5);
+    transform: scale(1.02);
+}
+
+/*FOOTER*/
+.footer {
+    background-color: #000066;
+    /* Dark background color */
+    color: #fff;
+    /* White text color */
+    padding: 30px 0;
+    /* Top and bottom padding */
+}
+
+.container {
+    max-width: 1140px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    /* Make each section take up equal space */
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin-top: 20px;
+    color: #fff;
+
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 18px;
+    display: inline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-section p {
+    color: #fff;
+}
+
+.footer-section:hover {
+    background-color: #0000ff;
+    /* Light gray background on hover and active */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1.5);
+    /* Shadow effect */
+}

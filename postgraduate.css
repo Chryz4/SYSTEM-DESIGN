@@ -1,0 +1,203 @@
+h1 {
+    margin-top: 200px;
+    font-size: 32px;
+    color: #00134d;
+}
+
+.container .text p {
+    width: 650px;
+    height: 500px;
+    margin-left: -100px;
+    margin-top: 50px;
+    font-size: 18px;
+
+}
+
+.container .image img {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.container1 p {
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: -100px;
+}
+
+.container2 {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 400px;
+    box-shadow: 10px 2px 5px rgba(0, 0, 0, 2.5);
+    margin-top: -100px;
+}
+
+
+
+.container2 ul li:hover {
+    background-color: wheat;
+
+}
+
+.container2 ul li .active {
+    background-color: wheat;
+    color: #fff;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.container3 {
+    display: flex;
+    /* Use flexbox for easy horizontal layout */
+    justify-content: space-between;
+    /* Space elements evenly */
+}
+
+.contact-info {
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* Rounded corners */
+}
+
+.phone {
+    background-color: #00cc00;
+    width: 600px;
+    margin-left: 50px;
+    /* Green color */
+}
+
+.email {
+    background-color: #0077b3;
+    margin-right: 50px;
+    width: 600px;
+    margin-left: 0;
+    /* Blue color */
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.details {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.contact-info .phone {
+    width: 600px;
+}
+
+.container2 h2 {
+    color: #00134d;
+}
+
+.contact-info:hover {
+    background-color: #009900;
+    /* Slightly darker green */
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 1.5);
+    /* Add a subtle shadow */
+    transform: scale(1.02);
+    /* Slightly enlarge on hover */
+}
+
+.email:hover {
+    background-color: #006699;
+    /* Slightly darker blue */
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 1.5);
+    transform: scale(1.02);
+}
+
+.container1 {
+    background-color: gainsboro;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #000066;
+    /* Dark background color */
+    color: #fff;
+    /* White text color */
+    padding: 30px 0;
+    /* Top and bottom padding */
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1140px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    /* Make each section take up equal space */
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    margin-top: 20px;
+    color: #fff;
+
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 18px;
+    display: inline;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.footer-section p {
+    color: #fff;
+}
+
+.footer-section:hover {
+    background-color: #0000ff;
+    /* Light gray background on hover and active */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1.5);
+    /* Shadow effect */
+}

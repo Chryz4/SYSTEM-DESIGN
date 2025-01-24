@@ -1,0 +1,208 @@
+.Undergraduates_Image h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0ch;
+    color: #00001a;
+
+}
+
+.Undergraduates_Image img {
+    margin-top: 40px;
+    width: 1430px;
+}
+
+.BS_Fac {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    height: 50px;
+    width: 1430px;
+    background-color: #80ff80;
+}
+
+.BS_Fac h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.BS_Fac_Subs .right-section h2 {
+    color: #00004d;
+}
+
+.BS_Fac_Subs .right-section ul {
+    color: #00004d;
+}
+
+.BS_Fac_Subs .left-section h2 {
+    color: #00004d;
+}
+
+.BS_Fac_Subs .left-section ul {
+    color: #00004d;
+}
+
+.BS_Fac_Subs .right-section {
+    flex: 1;
+}
+
+.BS_Fac_Subs .left-section {
+    flex: 1;
+}
+
+.BS_Fac_Subs {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+}
+
+.IT_Fac {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    height: 50px;
+    width: 1430px;
+    background-color: #aa80ff;
+}
+
+.IT_Fac h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.IT_Fac_Subs .right-section1 h2 {
+    color: #00004d;
+}
+
+.IT_Fac_Subs .right-section1 ul {
+    color: #00004d;
+}
+
+.IT_Fac_Subs .left-section1 h2 {
+    color: #00004d;
+}
+
+.IT_Fac_Subs .left-section1 ul {
+    color: #00004d;
+}
+
+.IT_Fac_Subs .right-section1 {
+    flex: 1;
+}
+
+.IT_Fac_Subs .left-section1 {
+    flex: 1;
+}
+
+.IT_Fac_Subs {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+}
+
+.Science_Fac {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    height: 50px;
+    width: 1430px;
+    background-color: #ff944d;
+}
+
+.Science_Fac h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+.S_Fac_Subs .right-section3 h2 {
+    color: #00004d;
+}
+
+.S_Fac_Subs .right-section3 ul {
+    color: #00004d;
+}
+
+.S_Fac_Subs .left-section3 h2 {
+    color: #00004d;
+}
+
+.S_Fac_Subs .left-section3 ul {
+    color: #00004d;
+}
+
+.S_Fac_Subs .right-section3 {
+    flex: 1;
+}
+
+.S_Fac_Subs .left-section {
+    flex: 1;
+}
+
+.S_Fac_Subs {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+}
+
+.Eng_Fac {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    height: 50px;
+    width: 1430px;
+    background-color: #80bfff;
+}
+
+.Eng_Fac h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+.Eng_Fac_Subs .right-section2 h2 {
+    color: #00004d;
+}
+
+.Eng_Fac_Subs .right-section2 ul {
+    color: #00004d;
+}
+
+.Eng_Fac_Subs .left-section2 h2 {
+    color: #00004d;
+}
+
+.Eng_Fac_Subs .left-section2 ul {
+    color: #00004d;
+}
+
+.Eng_Fac_Subs .right-section2 {
+    flex: 1;
+}
+
+.Eng_Fac_Subs .left-section2 {
+    flex: 1;
+}
+
+.Eng_Fac_Subs {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+}
+
+ul li:hover {
+    background-color: #a3a3c2;
+}
+
+ul li.active {
+    background-color: #333;
+    color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+}
