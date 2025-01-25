@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <title>Course</title>
+    <link rel="stylesheet" type="text/css" href="coursemgt.css">
+</head>
+
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CourseUpdateDelIns</title>
+        <link rel="stylesheet" href="Studentportal.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="SS.jpg" alt="Scholar Sphere">
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li class="nav-link">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-link faculties">
+                            <a href="#">Faculties
+                                <span class="material-icons drop-down-icon">
+                                    arrow_drop_down
+                                </span></a>
+                            <ul class="drop-down">
+                                <li>Faculty of Business</li>
+                                <li>Faculty of Computing</li>
+                                <li>Faculty of Engineering</li>
+                                <li>Faculty of Science</li>
+                            </ul>
+                        </li>
+                        <li class="nav-link courses">
+                            <a href="#">Courses
+                                <span class="material-icons drop-down-icon">arrow_drop_down
+                                </span></a>
+                            <ul class="drop-down">
+                                <li>Certificate Programme</li>
+                                <li>Foundation Programme</li>
+                                <li>Undergraduate Programme</li>
+                                <li>Postgraduate Programme</li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Student Life</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <button class="Login-button"
+                            onclick="location.href=('D:/Chris/NIBM/WEB/HTML/Assignment/StudentMgtSystemLogin.html')">
+                            Login
+                        </button>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <title>Course Update</title>
+        </head>
+
+        <body>
+
+
+            <form action="insert.php" method="post">
+                <h1>Course Management</h1>
+                <br><br>
+                <label for="CC">Course Code:</label>
+                <input type="text" id="CC" name="CC" required><br><br>
+
+                <label for="module">Module Name:</label>
+                <input type="text" id="module" name="module" size='100px' required><br><br>
+
+                <input type="submit" value="Update" width="100px" height="80px">
+                <input type="submit" value="Insert" width="100px" height="80px">
+                <input type="submit" value="Delete" width="100px" height="80px">
+
+                <br><br>
+
+                <p>
+                    <color="red">*</color>Please fill in all the above mentioned details to successfully update , delete
+                        and add the
+                        Course details to the database.
+                </p>
+
+                <br><br>
+
+                <a href="/view_all_students" class="view-all-button">View All Courses</a></li>
+            </form>
+
+
+        </body>
+
+        </html>
