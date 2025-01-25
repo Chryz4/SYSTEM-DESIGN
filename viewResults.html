@@ -1,0 +1,84 @@
+<html>
+
+<head>
+    <title>Undergraduates</title>
+    <link rel="stylesheet" type="text/css" href="adminmenu.css">
+</head>
+
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portal</title>
+        <link rel="stylesheet" href="Studentportal.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="SS.jpg" alt="Scholar Sphere">
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li class="nav-link">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-link faculties">
+                            <a href="#">Faculties
+                                <span class="material-icons drop-down-icon">
+                                    arrow_drop_down
+                                </span></a>
+                            <ul class="drop-down">
+                                <li>Faculty of Business</li>
+                                <li>Faculty of Computing</li>
+                                <li>Faculty of Engineering</li>
+                                <li>Faculty of Science</li>
+                            </ul>
+                        </li>
+                        <li class="nav-link courses">
+                            <a href="#">Courses
+                                <span class="material-icons drop-down-icon">arrow_drop_down
+                                </span></a>
+                            <ul class="drop-down">
+                                <li>Certificate Programme</li>
+                                <li>Foundation Programme</li>
+                                <li>Undergraduate Programme</li>
+                                <li>Postgraduate Programme</li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Student Life</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <button class="Login-button"
+                            onclick="location.href=('D:/Chris/NIBM/WEB/HTML/Assignment/StudentMgtSystemLogin.html')">
+                            Login
+                        </button>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <form action="delete.php" method="post">
+            <h1>View Results</h1>
+
+            <label for="stu_num">Student Number:</label>
+            <input type="text" id="stu_num" name="stu_num" required><br><br>
+            <button type="submit" class="btn">View</button>
+        </form>
+
+
+
+    </body>
+
+    </html>
