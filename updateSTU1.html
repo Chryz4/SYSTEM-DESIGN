@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <title>Undergraduates</title>
+    <link rel="stylesheet" type="text/css" href="updateSTU1.css">
+</head>
+
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portal</title>
+        <link rel="stylesheet" href="Studentportal.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="SS.jpg" alt="Scholar Sphere">
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li class="nav-link">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-link faculties">
+                            <a href="#">Faculties
+                                <span class="material-icons drop-down-icon">
+                                    arrow_drop_down
+                                </span></a>
+                            <ul class="drop-down">
+                                <li>Faculty of Business</li>
+                                <li>Faculty of Computing</li>
+                                <li>Faculty of Engineering</li>
+                                <li>Faculty of Science</li>
+                            </ul>
+                        </li>
+                        <li class="nav-link courses">
+                            <a href="#">Courses
+                                <span class="material-icons drop-down-icon">arrow_drop_down
+                                </span></a>
+                            <ul class="drop-down">
+                                <li>Certificate Programme</li>
+                                <li>Foundation Programme</li>
+                                <li>Undergraduate Programme</li>
+                                <li>Postgraduate Programme</li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Student Life</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <button class="Login-button"
+                            onclick="location.href=('D:/Chris/NIBM/WEB/HTML/Assignment/StudentMgtSystemLogin.html')">
+                            Login
+                        </button>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <title>Student Update</title>
+        </head>
+
+        <body>
+
+
+            <form action="insert.php" method="post">
+                <h1>Student Update</h1>
+                <br><br>
+                <label for="stu_num">Student Number:</label>
+                <input type="text" id="stu_num" name="stu_num" required><br><br>
+
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" required><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1" max="120" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required><br><br>
+
+                <label for="nic">NIC:</label>
+                <input type="text" id="nic" name="nic" required><br><br>
+
+                <label for="faculty">Faculty:</label>
+                <select>
+                    <option value="business">Faculty of Business</option>
+                    <option value="computing">Faculty of Computing</option>
+                    <option value="engineering">Faculty of Engineering</option>
+                    <option value="science">Faculty of Science</option>
+                </select><br><br>
+
+                <input type="submit" value="Update" width="50px">
+                <input type="button" value="Cancel" onclick="window.location.href='cancel_page.html'"><br><br>
+                <br>
+
+
+
+
+                <p>
+                    <color="red">*</color>Please fill in all the above mentioned details to successfully update the
+                        student details to the database.
+                </p>
+            </form>
+
+
+        </body>
+
+        </html>
