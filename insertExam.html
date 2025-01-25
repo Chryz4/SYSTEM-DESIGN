@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <title>Undergraduates</title>
+    <link rel="stylesheet" type="text/css" href="adminmenu.css">
+</head>
+
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portal</title>
+        <link rel="stylesheet" href="Studentportal.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="SS.jpg" alt="Scholar Sphere">
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-links">
+                        <li class="nav-link">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-link faculties">
+                            <a href="#">Faculties
+                                <span class="material-icons drop-down-icon">
+                                    arrow_drop_down
+                                </span></a>
+                            <ul class="drop-down">
+                                <li>Faculty of Business</li>
+                                <li>Faculty of Computing</li>
+                                <li>Faculty of Engineering</li>
+                                <li>Faculty of Science</li>
+                            </ul>
+                        </li>
+                        <li class="nav-link courses">
+                            <a href="#">Courses
+                                <span class="material-icons drop-down-icon">arrow_drop_down
+                                </span></a>
+                            <ul class="drop-down">
+                                <li>Certificate Programme</li>
+                                <li>Foundation Programme</li>
+                                <li>Undergraduate Programme</li>
+                                <li>Postgraduate Programme</li>
+                            </ul>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">About</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Student Life</a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <button class="Login-button"
+                            onclick="location.href=('D:/Chris/NIBM/WEB/HTML/Assignment/StudentMgtSystemLogin.html')">
+                            Login
+                        </button>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <title></title>
+        </head>
+
+        <body>
+
+
+
+            <form action="insert.php" method="post">
+                <h1>Insert Examination Marks</h1>
+                <br><br>
+                <label for="CC">Course Code:</label>
+                <input type="text" id="CC" name="CC" required><br><br>
+
+                <label for="module">Module:</label>
+                <input type="text" id="module" name="module" required><br><br>
+
+                <label for="Edate">Exam Date</label>
+                <input type="date" id="Edate" name="Edate" required><br><br>
+
+                <label for="CW">Course Work:</label>
+                <input type="text" id="CW" name="CW" required><br><br>
+
+                <label for="exam">Exam</label>
+                <input type="text" id="exam" name="exam" required><br><br>
+
+                <label for="finalGrade">Final Grade:</label>
+                <input type="text" id="finalGrade" name="finalGrade" required><br><br>
+
+
+
+                <input type="submit" value="Submit" width="50px">
+                <input type="button" value="Cancel" onclick="window.location.href='cancel_page.html'"><br><br>
+                <br>
+
+
+
+
+                <p>
+                    <color="red">*</color>Please fill in all the above mentioned details to successfully add the
+                        Exam Results to the database.
+                </p>
+                <br>
+
+
+
+            </form>
+
+
+        </body>
+
+        </html>
