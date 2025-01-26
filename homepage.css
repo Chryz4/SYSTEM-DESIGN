@@ -7,6 +7,15 @@ header {
   background-color: #000;
 }
 
+.logo {
+  margin-right: 0; 
+}
+
+.logo img {
+  max-width: 150px;
+  width: 100%; 
+  height: 66.5px; 
+}
 
 *{
     margin: 0;
@@ -15,6 +24,7 @@ header {
 }  
 
 .container {
+  justify-content: space-between;
   height: 0;
   width: 100%;
   font-size: 14px;
@@ -25,6 +35,7 @@ header {
 .navbar {
   margin: auto;
   padding: 0.5px 1px;
+  width: 100%;
   padding: 5px 0;
   background: #fff;
   border-radius: 0px;
@@ -65,12 +76,12 @@ a{
 }
 
 ul li{
-    margin-right:14px;
+    margin-right:10px;
 
 }
 
 ul li a {
-    padding: 10px 15px;
+    padding: 5px 3px;
     text-decoration: none;
     display: block;
 }
@@ -95,7 +106,7 @@ ul li a {
 }
 
 .nav-link:hover a {
-  color: bisque;
+  color: black;
 }
 
 .faculties:hover .drop-down{
@@ -160,13 +171,17 @@ nav ul li:hover .dropdown {
   .img-slider{
     margin-top: 80px;
     display: flex;
+    justify-content: center;
+    width: 350%;
+    height: auto;
+    object-fit: cover; 
   }
 
   button{
     background-color: #2873c8;
     color: black;
     height: 7vh;
-    margin-top: 12.5px;
+    margin-top: 8px;
     position: relative;
     width: 70px;
     border: 1px solid #ccc;
@@ -176,3 +191,134 @@ nav ul li:hover .dropdown {
     text-decoration: none;
   }
   
+  **{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    margin-right: 70px;
+  }
+
+  .card-container{
+    margin-right: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -80%;
+    align-items: center;
+  }
+
+  .card-list .card-item{
+    list-style: none;
+    
+  }
+
+  .card-list .card-item .card-link{
+    align-items: left;
+    width: 40vh;
+    display: block;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+  }
+
+  .card-list .card-item .card-link:hover{
+    border-color: #5372f0;
+  }
+
+  .card-list .card-link .card-image{
+    width: 100%;
+    height: 120px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card-list .card-link .badge{
+    color: #5372f0;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 16px 0 18px;
+    background: #DDE4FF;
+    width: fit-content;
+    border-radius: 50px;
+    margin-top: 100px;
+    
+  }
+
+  .card-list .card-link .badge.computing{
+    color: #5372f0;
+    background: #fcfe72;
+  }
+
+  .card-list .card-link .badge.engineering{
+    color: #5372f0;
+    background: #f1daf6;  
+  }
+
+  .card-list .card-link .badge.architecture{
+    color: #5372f0;
+    background: #c7f2fb;
+  }
+
+  .card-list .card-link .badge.sciences{
+    color: #5372f0;
+    background: #dff4c2;  
+  }
+
+  .card-list .card-link .badge.hospitality{
+    color: #5372f0;
+    background: #f9d4c0;  
+  }
+
+  .card-list .card-link .card-title{
+    font-size: 0.9rem;
+    color: #000;
+    font-weight: 600;
+    align-items: center;
+  }
+
+  .card-list .card-link .card-button{
+    height: 35px;
+    width: 35px;
+    color: #5372f0;
+    border-radius: 50px;
+    margin: 20px 0 5px;
+    background: none;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+    align-items: center;
+  }
+
+  .card-list .card-link:hover .card-button{
+    color: #fff;
+    background: #5372f0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  }
