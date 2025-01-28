@@ -160,13 +160,40 @@ header {
       -webkit-font-smoothing: antialiased;
     }
   
-    body{
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #1D212B;
-    }
+ 
+body {
+    height: 100vh;
+    display: flex;
+    background-color: #ccc;
+}
+
+button {
+    background-color: #2873c8;
+    color: black;
+    height: 7vh;
+    margin-top: 8px;
+    position: relative;
+    width: 70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container .button1 {
+    background-color: #000;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
 
 .button-container {
     display: flex;

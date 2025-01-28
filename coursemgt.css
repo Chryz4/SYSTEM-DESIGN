@@ -1,3 +1,213 @@
+
+.Undergraduates_Image h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0ch;
+    color: #00001a;
+
+}
+
+.Undergraduates_Image img {
+    margin-top: 40px;
+    width: 1430px;
+}
+
+.BS_Fac {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    height: 50px;
+    width: 1430px;
+    background-color: #80ff80;
+}
+
+.BS_Fac h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.BS_Fac_Subs .right-section h2 {
+    color: #00004d;
+}
+
+.BS_Fac_Subs .right-section ul {
+    color: #00004d;
+}
+
+.BS_Fac_Subs .left-section h2 {
+    color: #00004d;
+}
+
+.BS_Fac_Subs .left-section ul {
+    color: #00004d;
+}
+
+.BS_Fac_Subs .right-section {
+    flex: 1;
+}
+
+.BS_Fac_Subs .left-section {
+    flex: 1;
+}
+
+.BS_Fac_Subs {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+}
+
+.IT_Fac {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    height: 50px;
+    width: 1430px;
+    background-color: #aa80ff;
+}
+
+.IT_Fac h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.IT_Fac_Subs .right-section1 h2 {
+    color: #00004d;
+}
+
+.IT_Fac_Subs .right-section1 ul {
+    color: #00004d;
+}
+
+.IT_Fac_Subs .left-section1 h2 {
+    color: #00004d;
+}
+
+.IT_Fac_Subs .left-section1 ul {
+    color: #00004d;
+}
+
+.IT_Fac_Subs .right-section1 {
+    flex: 1;
+}
+
+.IT_Fac_Subs .left-section1 {
+    flex: 1;
+}
+
+.IT_Fac_Subs {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+}
+
+.Science_Fac {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    height: 50px;
+    width: 1430px;
+    background-color: #ff944d;
+}
+
+.Science_Fac h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+.S_Fac_Subs .right-section3 h2 {
+    color: #00004d;
+}
+
+.S_Fac_Subs .right-section3 ul {
+    color: #00004d;
+}
+
+.S_Fac_Subs .left-section3 h2 {
+    color: #00004d;
+}
+
+.S_Fac_Subs .left-section3 ul {
+    color: #00004d;
+}
+
+.S_Fac_Subs .right-section3 {
+    flex: 1;
+}
+
+.S_Fac_Subs .left-section {
+    flex: 1;
+}
+
+.S_Fac_Subs {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+}
+
+.Eng_Fac {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    height: 50px;
+    width: 1430px;
+    background-color: #80bfff;
+}
+
+.Eng_Fac h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+.Eng_Fac_Subs .right-section2 h2 {
+    color: #00004d;
+}
+
+.Eng_Fac_Subs .right-section2 ul {
+    color: #00004d;
+}
+
+.Eng_Fac_Subs .left-section2 h2 {
+    color: #00004d;
+}
+
+.Eng_Fac_Subs .left-section2 ul {
+    color: #00004d;
+}
+
+.Eng_Fac_Subs .right-section2 {
+    flex: 1;
+}
+
+.Eng_Fac_Subs .left-section2 {
+    flex: 1;
+}
+
+.Eng_Fac_Subs {
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+}
+
+ul li:hover {
+    background-color: #a3a3c2;
+}
+
+ul li.active {
+    background-color: #333;
+    color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -5,34 +215,34 @@ header {
     width: 100%;
     z-index: 1;
     background-color: #000;
-}
-
-.logo {
-    margin-right: 0;
-}
-
-.logo img {
+  }
+  
+  .logo {
+    margin-right: 0; 
+  }
+  
+  .logo img {
     max-width: 150px;
-    width: 100%;
-    height: 66.5px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
-}
-
-.container {
+    width: 100%; 
+    height: 66.5px; 
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI';
+  }  
+  
+  .container {
     justify-content: space-between;
     height: 0;
     width: 100%;
     font-size: 14px;
     margin: 0 auto;
     display: flex;
-}
-
-.navbar {
+  }
+  
+  .navbar {
     margin: auto;
     padding: 0.5px 1px;
     width: 100%;
@@ -40,55 +250,54 @@ header {
     background: #fff;
     border-radius: 0px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
-}
-
-.nav-links {
+      
+  }
+  
+  .nav-links{
     display: flex;
     justify-content: space-between;
     flex-wrap: nowrap;
     color: black;
-
-}
-
-.nav-link {
+  
+  }
+  
+  .nav-link{
     margin-right: 10px;
-}
-
-.nav-link,
-.drop-down li {
-    list-style: none;
-    height: 100%;
-    padding: 0 50px 10px;
-    font-weight: 600;
-    cursor: pointer;
-    flex-wrap: nowrap;
-    margin-top: 12.5px;
-}
-
-.nav-link a {
+  }
+  
+  .nav-link, .drop-down li {
+  list-style: none;
+  height: 100%;
+  padding: 0 50px 10px;
+  font-weight: 600;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  margin-top: 12.5px;
+  }
+  
+  .nav-link a{
     display: flex;
     align-items: center;
-}
-
-a {
+  }
+  
+  a{
     text-decoration: none;
     color: black;
-}
-
-ul li {
-    margin-right: 10px;
-
-}
-
-ul li a {
-    padding: 5px 3px;
-    text-decoration: none;
-    display: block;
-}
-
-
-.drop-down {
+  }
+  
+  ul li{
+      margin-right:10px;
+  
+  }
+  
+  ul li a {
+      padding: 5px 3px;
+      text-decoration: none;
+      display: block;
+  }
+  
+  
+  .drop-down{
     position: absolute;
     padding: 5px 0;
     margin-left: 5px;
@@ -98,104 +307,74 @@ ul li a {
     font-size: 13px;
     display: none;
     z-index: 1;
-
-}
-
-.nav-link:hover {
+  
+  }
+  
+  .nav-link:hover {
     color: black;
     border-radius: 5px;
-}
-
-.nav-link:hover a {
-    color: bisque;
-}
-
-.faculties:hover .drop-down {
-    display: block;
-}
-
-.faculties a {
-    display: flex;
-}
-
-nav ul li:hover .dropdown {
-    display: block;
-}
-
-.courses:hover .drop-down {
-    display: block;
-}
-
-.courses a {
-    display: flex;
-}
-
-.dropdown-icon {
-    font-size: 20px;
-    position: relative;
-    right: -5px;
-}
-
-
-@font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/materialicons/v143/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2);
-}
-
-.material-icons {
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    -webkit-font-feature-settings: 'liga';
-    font-feature-settings: 'liga';
-    -webkit-font-smoothing: antialiased;
-}
-
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-button {
-    background-color: #2873c8;
+  }
+  
+  .nav-link:hover a {
     color: black;
-    height: 7vh;
-    margin-top: 8px;
-    position: relative;
-    width: 70px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-form {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 1.5);
-}
-
-.view-all-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    /* Green */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
+  }
+  
+  .faculties:hover .drop-down{
+    display: block;
+  }
+  
+  .faculties a {
+      display: flex;
+  }
+  
+  nav ul li:hover .dropdown {
+      display: block;
+    }
+    
+  .courses:hover .drop-down{
+    display: block;
+  }
+  
+  .courses a {
+      display: flex;
+  }
+  
+  .dropdown-icon {
+      font-size: 20px;
+      position: relative;
+      right: -5px;
+  }
+  
+  
+  @font-face {
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/materialicons/v143/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2);
+    }
+    
+    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+  
+    body{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #1D212B;
+    }
+  
